@@ -28,3 +28,17 @@ const circle = L.circle([33.67184672345501, 130.443288792812], {
   fillOpacity: 0.3, //塗りつぶしの不透明度
   radius: 1000 //半径、メートルで指定
 }).addTo(map);
+
+// circle.bindPopup("半径1kmの範囲");
+
+// // クリック位置の緯度経度表示
+// const popup = L.popup();
+
+// function onMapClick(e) {
+//   popup
+//     .setLatLng(e.latlng)
+//     .setContent("ここは" + e.latlng.toString() + "です")
+//     .openOn(map);
+// }
+
+// map.on('click', onMapClick);
